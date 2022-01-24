@@ -1,0 +1,11 @@
+package hackerrank
+
+import kotlin.math.pow
+
+fun flippingBits(n: Long): Long {
+    return 2.0.pow(32.0).toLong() + n.inv()
+}
+
+fun main() {
+    println(flippingBits(9))
+}
