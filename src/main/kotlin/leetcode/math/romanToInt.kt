@@ -10,25 +10,21 @@ fun romanToInt(s: String): Int {
         'D' to 500,
         'M' to 1000,
     )
-    val special = setOf('I', 'X', 'C')
+    val special = mapOf('I' to setOf('V', 'X'), 'X' to setOf('L', 'C'), 'C' to setOf('D', 'M'))
 
     var sum = 0
-    var skip = false
 
-    for (i in s.indices) {
-        if (skip) {
-            skip = false
-            continue
-        } else if (s[i] in special && i < s.length - 1) {
-            if (s[i + 1] in special) {
-                sum += map[s[i]]!!
-            } else {
-                sum += (map[s[i + 1]]!! - map[s[i]]!!)
-                skip = true
-            }
+    var i = 0
+
+    while (i < s.length) {
+        if (s[i] in special.keys && i < s.length - 1 && s[i + 1] in special[s[i]]!!) {
+            val value = map[s[i + 1]]!! - map[s[i]]!!
+            sum += value
+            i++
         } else {
             sum += map[s[i]]!!
         }
+        i++
     }
 
     return sum
