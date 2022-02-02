@@ -24,4 +24,4 @@ jobs:
           name: docs
           path: build/dokka/
       - name: Build with Gradle
-        run: ./gradlew build
+        run: ./gradlew test

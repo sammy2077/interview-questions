@@ -9,7 +9,7 @@ import java.math.RoundingMode
 private fun Int.divideAndKeepPrecision(divisor: Int, scale: Int = 6): BigDecimal =
     this.toBigDecimal().divide(divisor.toBigDecimal(), scale, RoundingMode.HALF_UP)
 
-fun plusMinus(arr: IntArray) {
+fun plusMinus(arr: IntArray): Array<String> {
     var positives = 0
     var zeros = 0
     var negatives = 0
@@ -20,11 +20,12 @@ fun plusMinus(arr: IntArray) {
             else -> negatives++
         }
     }
-    println(positives.divideAndKeepPrecision(arr.size))
-    println(negatives.divideAndKeepPrecision(arr.size))
-    println(zeros.divideAndKeepPrecision(arr.size))
+    val pRatio = positives.divideAndKeepPrecision(arr.size)
+    val nRatio = negatives.divideAndKeepPrecision(arr.size)
+    val zRatio = zeros.divideAndKeepPrecision(arr.size)
+    return arrayOf(pRatio.toString(), nRatio.toString(), zRatio.toString())
 }
 
 fun main() {
-    plusMinus(intArrayOf(-4, 3, -9, 0, 4, 1))
+    println(plusMinus(intArrayOf(-4, 3, -9, 0, 4, 1)).contentToString())
 }
