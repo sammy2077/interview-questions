@@ -3,6 +3,8 @@ import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 plugins {
     kotlin("jvm") version "1.6.10"
     application
+    id("org.jlleitschuh.gradle.ktlint") version "10.2.1"
+    id("org.jetbrains.dokka") version "1.6.10"
 }
 
 group = "me.aws-prep"
@@ -22,6 +24,10 @@ tasks.test {
 
 tasks.withType<KotlinCompile> {
     kotlinOptions.jvmTarget = "1.8"
+}
+
+tasks.dokkaHtml.configure {
+    outputDirectory.set(buildDir.resolve("dokka"))
 }
 
 application {

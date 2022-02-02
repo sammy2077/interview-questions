@@ -3,7 +3,7 @@ package hackerrank
 import kotlin.math.max
 import kotlin.math.min
 
-fun miniMaxSum(arr: IntArray): Unit {
+fun miniMaxSum(arr: IntArray) {
     var maxValue = Int.MIN_VALUE
     var minValue = Int.MAX_VALUE
 
@@ -14,7 +14,6 @@ fun miniMaxSum(arr: IntArray): Unit {
         minValue = min(minValue, item)
     }
     println("${sum - maxValue} ${sum - minValue}")
-
 }
 
 fun main() {

@@ -1,9 +1,8 @@
 package leetcode
 
 import leetcode.arrays.*
-import org.junit.jupiter.api.Test
-
 import org.junit.jupiter.api.Assertions.*
+import org.junit.jupiter.api.Test
 
 internal class ArraysTest {
 
@@ -14,7 +13,6 @@ internal class ArraysTest {
         assertEquals(1, removeDuplicates(intArrayOf(1)))
         assertEquals(1, removeDuplicates(intArrayOf(1, 1, 1, 1, 1, 1, 1)))
     }
-
 
     @Test
     fun `test the maxProfit`() {
@@ -61,5 +59,4 @@ internal class ArraysTest {
         assertArrayEquals(intArrayOf(), intersect(intArrayOf(9), intArrayOf(1, 0)))
         assertArrayEquals(intArrayOf(1), intersect(intArrayOf(1), intArrayOf(1, 0)))
     }
-
 }

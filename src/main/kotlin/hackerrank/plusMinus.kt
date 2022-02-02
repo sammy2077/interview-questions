@@ -9,7 +9,7 @@ import java.math.RoundingMode
 private fun Int.divideAndKeepPrecision(divisor: Int, scale: Int = 6): BigDecimal =
     this.toBigDecimal().divide(divisor.toBigDecimal(), scale, RoundingMode.HALF_UP)
 
-fun plusMinus(arr: IntArray): Unit {
+fun plusMinus(arr: IntArray) {
     var positives = 0
     var zeros = 0
     var negatives = 0

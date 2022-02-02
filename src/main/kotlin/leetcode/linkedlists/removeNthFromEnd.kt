@@ -23,5 +23,4 @@ fun removeNthFromEnd(head: ListNode?, n: Int): ListNode? {
         parentToRemoveNode!!.next = parentToRemoveNode?.next?.next
         head
     }
-
 }

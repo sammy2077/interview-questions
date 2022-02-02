@@ -1,6 +1,5 @@
 package cake
 
-
 fun binarySearch(nums: IntArray, target: Int): Int {
     var floorIndex = -1
     var ceilingIndex: Int = nums.size
@@ -18,7 +17,6 @@ fun binarySearch(nums: IntArray, target: Int): Int {
     }
 
     return -1
-
 }
 
 fun main() {

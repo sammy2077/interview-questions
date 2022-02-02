@@ -2,7 +2,6 @@ package leetcode.dynamic
 
 import kotlin.math.max
 
-
 fun maxSubArray(nums: IntArray): Int {
     var max = nums.firstOrNull() ?: 0
     var sum = 0
@@ -12,7 +11,6 @@ fun maxSubArray(nums: IntArray): Int {
         if (sum < 0) sum = 0
     }
     return max
-
 }
 
 fun main() {

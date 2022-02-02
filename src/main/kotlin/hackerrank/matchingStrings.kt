@@ -1,6 +1,5 @@
 package hackerrank
 
-
 fun matchingStrings(strings: Array<String>, queries: Array<String>): IntArray {
     val map = HashMap<String, Int>()
 
@@ -13,7 +12,6 @@ fun matchingStrings(strings: Array<String>, queries: Array<String>): IntArray {
     }
     return result
 }
-
 
 fun main() {
     println(matchingStrings(arrayOf("aba", "baba", "aba", "xzxb"), arrayOf("aba", "xzxb", "ab")).contentToString())

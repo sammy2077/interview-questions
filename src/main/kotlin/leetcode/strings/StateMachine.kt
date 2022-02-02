@@ -1,6 +1,5 @@
 package leetcode.strings
 
-
 enum class State {
     q0, q1, q2, qd
 }
@@ -95,5 +94,4 @@ class StateMachine {
     // Return the final result formed with it's sign.
     val integer: Int
         get() = sign * result
-
 }

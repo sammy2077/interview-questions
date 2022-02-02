@@ -15,16 +15,15 @@ fun isSymmetric(root: TreeNode?): Boolean {
         val tempLeft = q.remove()
         val tempRight = q.remove()
 
-
         if (tempLeft == null && tempRight == null) continue
 
         if (tempLeft == null || tempRight == null || tempRight.`val` != tempLeft.`val`) {
             return false
         }
-        q.add(tempLeft.left);
-        q.add(tempRight.right);
-        q.add(tempLeft.right);
-        q.add(tempRight.left);
+        q.add(tempLeft.left)
+        q.add(tempRight.right)
+        q.add(tempLeft.right)
+        q.add(tempRight.left)
     }
     return true
 }

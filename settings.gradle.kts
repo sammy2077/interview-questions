@@ -1,3 +1,1 @@
-
-rootProject.name = "aws-prep"
-
+rootProject.name = "kotlin-practice"

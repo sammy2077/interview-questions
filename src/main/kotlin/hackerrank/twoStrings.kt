@@ -14,5 +14,4 @@ fun twoStrings(s1: String, s2: String): String {
     setA.retainAll(setB)
 
     return if (setA.isEmpty()) "NO" else "YES"
-
 }

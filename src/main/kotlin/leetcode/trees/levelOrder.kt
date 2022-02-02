@@ -2,7 +2,6 @@ package leetcode.trees
 
 import java.util.*
 
-
 fun levelOrder(root: TreeNode?): List<List<Int>> {
     if (root == null) {
         return listOf()
@@ -24,7 +23,6 @@ fun levelOrder(root: TreeNode?): List<List<Int>> {
     }
     return result
 }
-
 
 fun main() {
     val tree = TreeNode(5)

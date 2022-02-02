@@ -3,7 +3,7 @@ package leetcode.sorting
 fun merge(nums1: IntArray, m: Int, nums2: IntArray, n: Int) {
     if (nums2.isNotEmpty()) {
 
-        var sortedIndex1 = 0  // pointer to the sorted array 1
+        var sortedIndex1 = 0 // pointer to the sorted array 1
         var sortedIndex2 = 0 // pointer to the sorted array 2
 
         // if item at sortedIndex 1 is greater than sorted index 2 --- swap, then increment sortedIndex 1

@@ -14,5 +14,4 @@ fun singleNumber(nums: IntArray): Int {
 //        }
     }
     return table.filter { it.value == 1 }.keys.first()
-
 }

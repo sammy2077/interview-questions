@@ -15,7 +15,6 @@ class Solution(var nums: IntArray) {
         }
         return result
     }
-
 }
 
 fun main() {
@@ -32,7 +31,5 @@ fun main() {
         println(reset().contentToString())
 
         println(shuffle().contentToString())
-
-
     }
 }

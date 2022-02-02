@@ -2,7 +2,7 @@ package leetcode.dynamic
 
 fun climbStairs(n: Int): Int {
     if (n <= 1) {
-        return 1;
+        return 1
     }
     val ways = IntArray(n + 1)
     ways[0] = 1
@@ -12,7 +12,6 @@ fun climbStairs(n: Int): Int {
     }
     return ways[n]
 }
-
 
 fun main() {
     println(climbStairs(2))

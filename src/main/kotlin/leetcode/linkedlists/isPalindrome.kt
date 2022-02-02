@@ -26,7 +26,6 @@ fun isPalindrome(head: ListNode?): Boolean {
     }
 
     return true
-
 }
 
 fun main() {

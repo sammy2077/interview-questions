@@ -33,5 +33,4 @@ fun main() {
     minStack.top().let(::println) // return 0
 
     minStack.getMin().also { println(it) } // return -2
-
 }
