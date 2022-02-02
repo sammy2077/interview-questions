@@ -16,5 +16,12 @@ jobs:
         run: chmod +x ./gradlew
       - name: Check code style
         run: ./gradlew ktlintCheck
+      - name: Generate docs
+        run: ./gradlew dokkaHtml
+      - uses: actions/upload-artifact@v2
+        name: Save documentation
+        with:
+          name: docs
+          path: build/dokka/
       - name: Build with Gradle
         run: ./gradlew build

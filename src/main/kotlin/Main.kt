@@ -1,4 +1,9 @@
-import leetcode.arrays.*
+import leetcode.arrays.containsDuplicate
+import leetcode.arrays.intersect
+import leetcode.arrays.maxProfit
+import leetcode.arrays.removeDuplicates
+import leetcode.arrays.rotateArray
+import leetcode.arrays.singleNumber
 
 fun main() {
     println(removeDuplicates(intArrayOf(1, 1, 1, 1, 1, 2)))

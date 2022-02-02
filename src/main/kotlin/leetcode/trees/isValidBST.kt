@@ -1,6 +1,6 @@
 package leetcode.trees
 
-import java.util.*
+import java.util.Stack
 
 data class Node(val data: Int, val left: Node? = null, val right: Node? = null)
 

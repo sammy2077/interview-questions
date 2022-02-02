@@ -1,7 +1,7 @@
 package leetcode
 
 import leetcode.dynamic.rob
-import org.junit.jupiter.api.Assertions.*
+import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Test
 
 internal class DynamicTest {

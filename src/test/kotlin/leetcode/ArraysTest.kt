@@ -1,7 +1,16 @@
 package leetcode
 
-import leetcode.arrays.*
-import org.junit.jupiter.api.Assertions.*
+import leetcode.arrays.containsDuplicate
+import leetcode.arrays.intersect
+import leetcode.arrays.maxProfit
+import leetcode.arrays.moveZeroes
+import leetcode.arrays.plusOne
+import leetcode.arrays.removeDuplicates
+import leetcode.arrays.singleNumber
+import org.junit.jupiter.api.Assertions.assertArrayEquals
+import org.junit.jupiter.api.Assertions.assertEquals
+import org.junit.jupiter.api.Assertions.assertFalse
+import org.junit.jupiter.api.Assertions.assertTrue
 import org.junit.jupiter.api.Test
 
 internal class ArraysTest {
