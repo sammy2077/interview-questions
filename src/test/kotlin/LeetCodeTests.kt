@@ -12,6 +12,8 @@ import leetcode.linkedlists.removeNthFromEnd
 import leetcode.math.romanToInt
 import leetcode.others.isValid
 import leetcode.strings.firstUniqChar
+import leetcode.strings.myAtoi
+import leetcode.strings.myAtoiSimple
 import leetcode.strings.reverseString
 import org.junit.jupiter.api.Assertions.assertArrayEquals
 import org.junit.jupiter.api.Assertions.assertEquals
@@ -22,6 +24,22 @@ import org.junit.jupiter.api.Assertions.assertTrue
 import org.junit.jupiter.api.Test
 
 internal class LeetCodeTests {
+
+    @Test
+    fun `test for myAtoi`() {
+        assertEquals(42, myAtoi("42"))
+        assertEquals(-42, myAtoi("   -42"))
+        assertEquals(4193, myAtoi("4193 with words"))
+        assertEquals(Int.MAX_VALUE, myAtoi("41939764967456 with words"))
+    }
+
+    @Test
+    fun `test for myAtoiSimple`() {
+        assertEquals(42, myAtoiSimple("42"))
+        assertEquals(-42, myAtoiSimple("   -42"))
+        assertEquals(4193, myAtoiSimple("4193 with words"))
+        assertEquals(Int.MAX_VALUE, myAtoiSimple("41939764967456 with words"))
+    }
 
     @Test
     fun `test isValidParenthesis`() {

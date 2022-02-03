@@ -12,8 +12,9 @@ import kotlin.test.assertTrue
 internal class HackerRankTests {
 
     @Test
-    fun `test for `() {
+    fun `test for maximumToys`() {
         assertEquals(4, maximumToys(intArrayOf(1, 12, 5, 111, 200, 1000, 10), 50))
+        assertEquals(2, maximumToys(intArrayOf(1, 12, 5, 111, 200, 1000, 10), 15))
     }
 
     @Test
@@ -24,22 +25,19 @@ internal class HackerRankTests {
 
     @Test
     fun `test for checkMagazine`() {
-        assertEquals(
-            "Yes",
+        assertTrue(
             checkMagazine(
                 "give me one grand today night".split(" ").toTypedArray(),
                 "give one grand today".split(" ").toTypedArray()
             )
         )
-        assertEquals(
-            "No",
+        assertFalse(
             checkMagazine(
                 "two times three is not four".split(" ").toTypedArray(),
                 "two times two is four".split(" ").toTypedArray()
             )
         )
-        assertEquals(
-            "No",
+        assertFalse(
             checkMagazine(
                 "ive got a lovely bunch of coconuts".split(" ").toTypedArray(),
                 "ive got some coconuts".split(" ").toTypedArray()
