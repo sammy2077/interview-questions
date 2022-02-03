@@ -7,8 +7,6 @@ $dokka.location://main/#/PointingToDeclaration/kotlin-practice/[root]/main.html
 $dokka.location:cake////PointingToDeclaration/kotlin-practice/cake/index.html
 $dokka.location:cake//binarySearch/#kotlin.IntArray#kotlin.Int/PointingToDeclaration/kotlin-practice/cake/binary-search.html
 $dokka.location:cake//getMaxProfit/#kotlin.IntArray/PointingToDeclaration/kotlin-practice/cake/get-max-profit.html
-$dokka.location:cake//main/#/PointingToDeclaration/kotlin-practice/cake/main.html
-$dokka.location:cake//main/#kotlin.Array[kotlin.String]/PointingToDeclaration/kotlin-practice/cake/main.html
 $dokka.location:hackerrank.maps////PointingToDeclaration/kotlin-practice/hackerrank.maps/index.html
 $dokka.location:hackerrank.maps//checkMagazine/#kotlin.Array[kotlin.String]#kotlin.Array[kotlin.String]/PointingToDeclaration/kotlin-practice/hackerrank.maps/check-magazine.html
 $dokka.location:hackerrank.maps//twoStrings/#kotlin.String#kotlin.String/PointingToDeclaration/kotlin-practice/hackerrank.maps/two-strings.html

@@ -25,19 +25,22 @@ internal class HackerRankTests {
     @Test
     fun `test for checkMagazine`() {
         assertEquals(
-            "Yes", checkMagazine(
+            "Yes",
+            checkMagazine(
                 "give me one grand today night".split(" ").toTypedArray(),
                 "give one grand today".split(" ").toTypedArray()
             )
         )
         assertEquals(
-            "No", checkMagazine(
+            "No",
+            checkMagazine(
                 "two times three is not four".split(" ").toTypedArray(),
                 "two times two is four".split(" ").toTypedArray()
             )
         )
         assertEquals(
-            "No", checkMagazine(
+            "No",
+            checkMagazine(
                 "ive got a lovely bunch of coconuts".split(" ").toTypedArray(),
                 "ive got some coconuts".split(" ").toTypedArray()
             )

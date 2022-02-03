@@ -27,7 +27,7 @@ tasks.withType<KotlinCompile> {
 }
 
 tasks.dokkaHtml.configure {
-    outputDirectory.set(buildDir.resolve("dokka"))
+    outputDirectory.set(projectDir.resolve("docs"))
 }
 
 application {

@@ -1,5 +1,12 @@
 package cake
 
+/**
+ * Binary Search Implementation
+ *
+ * @param nums The sorted array to search
+ * @param target The item we are looking for
+ * @return the index of the [target] in [nums], when not found -1
+ */
 fun binarySearch(nums: IntArray, target: Int): Int {
     var floorIndex = -1
     var ceilingIndex: Int = nums.size
@@ -17,8 +24,4 @@ fun binarySearch(nums: IntArray, target: Int): Int {
     }
 
     return -1
-}
-
-fun main() {
-    println(binarySearch(intArrayOf(1, 2, 3, 4, 5, 6, 7, 8, 9, 11), 11))
 }
