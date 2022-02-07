@@ -18,10 +18,15 @@ jobs:
         run: ./gradlew ktlintCheck
       - name: Generate docs
         run: ./gradlew dokkaHtml
-      - uses: actions/upload-artifact@v2
-        name: Save documentation
-        with:
-          name: docs
-          path: build/dokka/
+      - name: Update documentation
+        uses: maxheld83/ghpages@v0.3.0
+        env:
+          BUILD_DIR: build/dokka/
+          GH_PAT: ${{ secrets.GH_PAT }}
+#      - uses: actions/upload-artifact@v2
+#        name: Save documentation
+#        with:
+#          name: docs
+#          path: build/dokka/
       - name: Build with Gradle
         run: ./gradlew test
