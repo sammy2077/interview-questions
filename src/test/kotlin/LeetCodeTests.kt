@@ -11,6 +11,7 @@ import leetcode.linkedlists.isPalindrome
 import leetcode.linkedlists.removeNthFromEnd
 import leetcode.math.romanToInt
 import leetcode.others.isValid
+import leetcode.sorting.Solution
 import leetcode.strings.firstUniqChar
 import leetcode.strings.myAtoi
 import leetcode.strings.myAtoiSimple
@@ -24,6 +25,16 @@ import org.junit.jupiter.api.Assertions.assertTrue
 import org.junit.jupiter.api.Test
 
 internal class LeetCodeTests {
+
+    @Test
+    fun `test for firstBad Version`() {
+        val solution = Solution()
+        with(solution) {
+            assertEquals(3, firstBadVersion(1000, 3))
+            assertEquals(31, firstBadVersion(1000, 31))
+            assertEquals(31, firstBadVersion(10000, 31))
+        }
+    }
 
     @Test
     fun `test for myAtoi`() {

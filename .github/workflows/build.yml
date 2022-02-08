@@ -23,10 +23,5 @@ jobs:
         env:
           BUILD_DIR: build/dokka/
           GH_PAT: ${{ secrets.GH_PAT }}
-#      - uses: actions/upload-artifact@v2
-#        name: Save documentation
-#        with:
-#          name: docs
-#          path: build/dokka/
       - name: Build with Gradle
         run: ./gradlew test
