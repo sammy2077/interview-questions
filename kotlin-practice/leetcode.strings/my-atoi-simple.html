@@ -1,0 +1,37 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>myAtoiSimple</title>
+<link href="../../images/logo-icon.svg" rel="icon" type="image/svg"><script>var pathToRoot = "../../";</script>    <script>const storage = localStorage.getItem("dokka-dark-mode")
+const savedDarkMode = storage ? JSON.parse(storage) : false
+if(savedDarkMode === true){
+    document.getElementsByTagName("html")[0].classList.add("theme-dark")
+}</script>
+<script type="text/javascript" src="../../scripts/sourceset_dependencies.js" async="async"></script><link href="../../styles/style.css" rel="Stylesheet"><link href="../../styles/jetbrains-mono.css" rel="Stylesheet"><link href="../../styles/main.css" rel="Stylesheet"><link href="../../styles/prism.css" rel="Stylesheet"><link href="../../styles/logo-styles.css" rel="Stylesheet"><script type="text/javascript" src="../../scripts/clipboard.js" async="async"></script><script type="text/javascript" src="../../scripts/navigation-loader.js" async="async"></script><script type="text/javascript" src="../../scripts/platform-content-handler.js" async="async"></script><script type="text/javascript" src="../../scripts/main.js" defer="defer"></script><script type="text/javascript" src="../../scripts/prism.js" async="async"></script>  </head>
+  <body>
+    <div class="navigation-wrapper" id="navigation-wrapper">
+      <div id="leftToggler"><span class="icon-toggler"></span></div>
+      <div class="library-name"><a href="../../index.html">kotlin-practice</a></div>
+      <div>1.0-SNAPSHOT</div>
+      <div class="pull-right d-flex"><button id="theme-toggle-button"><span id="theme-toggle"></span></button>
+        <div id="searchBar"></div>
+      </div>
+    </div>
+    <div id="container">
+      <div id="leftColumn">
+        <div id="sideMenu"></div>
+      </div>
+      <div id="main">
+        <div class="main-content" id="content" pageIds="kotlin-practice::leetcode.strings//myAtoiSimple/#kotlin.String/PointingToDeclaration//769193423">
+          <div class="breadcrumbs"><a href="../../index.html">kotlin-practice</a>/<a href="index.html">leetcode.strings</a>/<a href="my-atoi-simple.html">myAtoiSimple</a></div>
+          <div class="cover ">
+            <h1 class="cover"><span>my</span><wbr></wbr><span>Atoi</span><wbr></wbr><span><span>Simple</span></span></h1>
+          </div>
+          <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-depenent-content" data-active="" data-togglable=":dokkaHtml/main"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="my-atoi-simple.html"><span class="token function">myAtoiSimple</span></a><span class="token punctuation">(</span>input<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><p class="paragraph">Simple String to integer (atoi)</p><p class="paragraph">Implement the myAtoi(string s) function, which converts a string to a 32-bit signed integer (similar to C/C++'s atoi function).</p><p class="paragraph">The algorithm for myAtoi(string s) is as follows:</p><ul><li><p class="paragraph">Read in and ignore any leading whitespace.</p></li><li><p class="paragraph">Check if the next character (if not already at the end of the string) is '-' or '+'. Read this character in if it is either. This determines if the final result is negative or positive respectively. Assume the result is positive if neither is present.</p></li><li><p class="paragraph">Read in next the characters until the next non-digit character or the end of the input is reached. The rest of the string is ignored.</p></li><li><p class="paragraph">Convert these digits into an integer (i.e. &quot;123&quot; -> 123, &quot;0032&quot; -> 32). If no digits were read, then the integer is 0. Change the sign as necessary (from step 2).</p></li><li><p class="paragraph">If the integer is out of the 32-bit signed integer range -231, 231 - 1, then clamp the integer so that it remains in the range. Specifically, integers less than -231 should be clamped to -231, and integers greater than 231 - 1 should be clamped to 231 - 1.</p></li><li><p class="paragraph">Return the integer as the final result.</p></li></ul><p class="paragraph"><i>Note</i>: Only the space character ' ' is considered a whitespace character. <strong>Do not ignore any characters other than the leading whitespace or the rest of the string after the digits.</strong></p><h4 class="">Return</h4><p class="paragraph">the atoi result</p><h2 class="">Parameters</h2><div data-togglable="Parameters"><div class="table" data-togglable="Parameters"><div class="table-row" data-filterable-current=":dokkaHtml/main" data-filterable-set=":dokkaHtml/main"><div class="main-subrow keyValue WithExtraAttributes"><div class=""><span class="inline-flex"><div><span><span>input</span></span></div></span></div><div><div class="title"><div data-togglable="Parameters"><p class="paragraph">the input string</p></div></div></div></div></div></div></div></div></div>
+        </div>
+        <div class="footer"><span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>© 2022 Copyright</span><span class="pull-right"><span>Generated by </span><a href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span></div>
+      </div>
+    </div>
+  </body>
+</html>
+

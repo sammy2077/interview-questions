@@ -1,0 +1,137 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+$dokka.location:////PointingToDeclaration/kotlin-practice/[root]/index.html
+$dokka.location://canSum/#kotlin.Int#kotlin.IntArray/PointingToDeclaration/kotlin-practice/[root]/can-sum.html
+$dokka.location://countTestCases/#kotlin.Int#kotlin.Int/PointingToDeclaration/kotlin-practice/[root]/count-test-cases.html
+$dokka.location://main/#/PointingToDeclaration/kotlin-practice/[root]/main.html
+$dokka.location:cake////PointingToDeclaration/kotlin-practice/cake/index.html
+$dokka.location:cake//binarySearch/#kotlin.IntArray#kotlin.Int/PointingToDeclaration/kotlin-practice/cake/binary-search.html
+$dokka.location:cake//getMaxProfit/#kotlin.IntArray/PointingToDeclaration/kotlin-practice/cake/get-max-profit.html
+$dokka.location:hackerrank.maps////PointingToDeclaration/kotlin-practice/hackerrank.maps/index.html
+$dokka.location:hackerrank.maps//checkMagazine/#kotlin.Array[kotlin.String]#kotlin.Array[kotlin.String]/PointingToDeclaration/kotlin-practice/hackerrank.maps/check-magazine.html
+$dokka.location:hackerrank.maps//twoStrings/#kotlin.String#kotlin.String/PointingToDeclaration/kotlin-practice/hackerrank.maps/two-strings.html
+$dokka.location:hackerrank.sorting////PointingToDeclaration/kotlin-practice/hackerrank.sorting/index.html
+$dokka.location:hackerrank.sorting//countSwaps/#kotlin.IntArray/PointingToDeclaration/kotlin-practice/hackerrank.sorting/count-swaps.html
+$dokka.location:hackerrank.sorting//maximumToys/#kotlin.IntArray#kotlin.Int/PointingToDeclaration/kotlin-practice/hackerrank.sorting/maximum-toys.html
+$dokka.location:hackerrank////PointingToDeclaration/kotlin-practice/hackerrank/index.html
+$dokka.location:hackerrank//flippingBits/#kotlin.Long/PointingToDeclaration/kotlin-practice/hackerrank/flipping-bits.html
+$dokka.location:hackerrank//main/#/PointingToDeclaration/kotlin-practice/hackerrank/main.html
+$dokka.location:hackerrank//matchingStrings/#kotlin.Array[kotlin.String]#kotlin.Array[kotlin.String]/PointingToDeclaration/kotlin-practice/hackerrank/matching-strings.html
+$dokka.location:hackerrank//maxMin/#kotlin.Int#kotlin.Array[kotlin.Int]/PointingToDeclaration/kotlin-practice/hackerrank/max-min.html
+$dokka.location:hackerrank//miniMaxSum/#kotlin.IntArray/PointingToDeclaration/kotlin-practice/hackerrank/mini-max-sum.html
+$dokka.location:hackerrank//plusMinus/#kotlin.IntArray/PointingToDeclaration/kotlin-practice/hackerrank/plus-minus.html
+$dokka.location:hackerrank//timeConversion/#kotlin.String/PointingToDeclaration/kotlin-practice/hackerrank/time-conversion.html
+$dokka.location:leetcode.arrays////PointingToDeclaration/kotlin-practice/leetcode.arrays/index.html
+$dokka.location:leetcode.arrays//containsDuplicate/#kotlin.IntArray/PointingToDeclaration/kotlin-practice/leetcode.arrays/contains-duplicate.html
+$dokka.location:leetcode.arrays//intersect/#kotlin.IntArray#kotlin.IntArray/PointingToDeclaration/kotlin-practice/leetcode.arrays/intersect.html
+$dokka.location:leetcode.arrays//maxProfit/#kotlin.IntArray/PointingToDeclaration/kotlin-practice/leetcode.arrays/max-profit.html
+$dokka.location:leetcode.arrays//maxProfitBuyOnce/#kotlin.IntArray/PointingToDeclaration/kotlin-practice/leetcode.arrays/max-profit-buy-once.html
+$dokka.location:leetcode.arrays//moveZeroes/#kotlin.IntArray/PointingToDeclaration/kotlin-practice/leetcode.arrays/move-zeroes.html
+$dokka.location:leetcode.arrays//plusOne/#kotlin.IntArray/PointingToDeclaration/kotlin-practice/leetcode.arrays/plus-one.html
+$dokka.location:leetcode.arrays//removeDuplicates/#kotlin.IntArray/PointingToDeclaration/kotlin-practice/leetcode.arrays/remove-duplicates.html
+$dokka.location:leetcode.arrays//rotateArray/#kotlin.IntArray#kotlin.Int/PointingToDeclaration/kotlin-practice/leetcode.arrays/rotate-array.html
+$dokka.location:leetcode.arrays//singleNumber/#kotlin.IntArray/PointingToDeclaration/kotlin-practice/leetcode.arrays/single-number.html
+$dokka.location:leetcode.design////PointingToDeclaration/kotlin-practice/leetcode.design/index.html
+$dokka.location:leetcode.design//main/#/PointingToDeclaration/kotlin-practice/leetcode.design/main.html
+$dokka.location:leetcode.design/MinStack///PointingToDeclaration/kotlin-practice/leetcode.design/-min-stack/index.html
+$dokka.location:leetcode.design/MinStack/MinStack/#/PointingToDeclaration/kotlin-practice/leetcode.design/-min-stack/-min-stack.html
+$dokka.location:leetcode.design/MinStack/getMin/#/PointingToDeclaration/kotlin-practice/leetcode.design/-min-stack/get-min.html
+$dokka.location:leetcode.design/MinStack/pop/#/PointingToDeclaration/kotlin-practice/leetcode.design/-min-stack/pop.html
+$dokka.location:leetcode.design/MinStack/push/#kotlin.Int/PointingToDeclaration/kotlin-practice/leetcode.design/-min-stack/push.html
+$dokka.location:leetcode.design/MinStack/top/#/PointingToDeclaration/kotlin-practice/leetcode.design/-min-stack/top.html
+$dokka.location:leetcode.design/Solution///PointingToDeclaration/kotlin-practice/leetcode.design/-solution/index.html
+$dokka.location:leetcode.design/Solution/Solution/#kotlin.IntArray/PointingToDeclaration/kotlin-practice/leetcode.design/-solution/-solution.html
+$dokka.location:leetcode.design/Solution/nums/#/PointingToDeclaration/kotlin-practice/leetcode.design/-solution/nums.html
+$dokka.location:leetcode.design/Solution/reset/#/PointingToDeclaration/kotlin-practice/leetcode.design/-solution/reset.html
+$dokka.location:leetcode.design/Solution/shuffle/#/PointingToDeclaration/kotlin-practice/leetcode.design/-solution/shuffle.html
+$dokka.location:leetcode.dynamic////PointingToDeclaration/kotlin-practice/leetcode.dynamic/index.html
+$dokka.location:leetcode.dynamic//climbStairs/#kotlin.Int/PointingToDeclaration/kotlin-practice/leetcode.dynamic/climb-stairs.html
+$dokka.location:leetcode.dynamic//main/#/PointingToDeclaration/kotlin-practice/leetcode.dynamic/main.html
+$dokka.location:leetcode.dynamic//maxProfit/#kotlin.IntArray/PointingToDeclaration/kotlin-practice/leetcode.dynamic/max-profit.html
+$dokka.location:leetcode.dynamic//maxSubArray/#kotlin.IntArray/PointingToDeclaration/kotlin-practice/leetcode.dynamic/max-sub-array.html
+$dokka.location:leetcode.dynamic//rob/#kotlin.IntArray/PointingToDeclaration/kotlin-practice/leetcode.dynamic/rob.html
+$dokka.location:leetcode.linkedlists////PointingToDeclaration/kotlin-practice/leetcode.linkedlists/index.html
+$dokka.location:leetcode.linkedlists//deleteNode/#leetcode.linkedlists.ListNode?/PointingToDeclaration/kotlin-practice/leetcode.linkedlists/delete-node.html
+$dokka.location:leetcode.linkedlists//isPalindrome/#leetcode.linkedlists.ListNode?/PointingToDeclaration/kotlin-practice/leetcode.linkedlists/is-palindrome.html
+$dokka.location:leetcode.linkedlists//main/#/PointingToDeclaration/kotlin-practice/leetcode.linkedlists/main.html
+$dokka.location:leetcode.linkedlists//removeNthFromEnd/#leetcode.linkedlists.ListNode?#kotlin.Int/PointingToDeclaration/kotlin-practice/leetcode.linkedlists/remove-nth-from-end.html
+$dokka.location:leetcode.linkedlists/ListNode///PointingToDeclaration/kotlin-practice/leetcode.linkedlists/-list-node/index.html
+$dokka.location:leetcode.linkedlists/ListNode/ListNode/#kotlin.Int#leetcode.linkedlists.ListNode?/PointingToDeclaration/kotlin-practice/leetcode.linkedlists/-list-node/-list-node.html
+$dokka.location:leetcode.linkedlists/ListNode/next/#/PointingToDeclaration/kotlin-practice/leetcode.linkedlists/-list-node/next.html
+$dokka.location:leetcode.linkedlists/ListNode/val/#/PointingToDeclaration/kotlin-practice/leetcode.linkedlists/-list-node/val.html
+$dokka.location:leetcode.math////PointingToDeclaration/kotlin-practice/leetcode.math/index.html
+$dokka.location:leetcode.math//main/#/PointingToDeclaration/kotlin-practice/leetcode.math/main.html
+$dokka.location:leetcode.math//romanToInt/#kotlin.String/PointingToDeclaration/kotlin-practice/leetcode.math/roman-to-int.html
+$dokka.location:leetcode.others////PointingToDeclaration/kotlin-practice/leetcode.others/index.html
+$dokka.location:leetcode.others//isValid/#kotlin.String/PointingToDeclaration/kotlin-practice/leetcode.others/is-valid.html
+$dokka.location:leetcode.others//main/#/PointingToDeclaration/kotlin-practice/leetcode.others/main.html
+$dokka.location:leetcode.sorting////PointingToDeclaration/kotlin-practice/leetcode.sorting/index.html
+$dokka.location:leetcode.sorting//merge/#kotlin.IntArray#kotlin.Int#kotlin.IntArray#kotlin.Int/PointingToDeclaration/kotlin-practice/leetcode.sorting/merge.html
+$dokka.location:leetcode.sorting/Solution///PointingToDeclaration/kotlin-practice/leetcode.sorting/-solution/index.html
+$dokka.location:leetcode.sorting/Solution/Solution/#/PointingToDeclaration/kotlin-practice/leetcode.sorting/-solution/-solution.html
+$dokka.location:leetcode.sorting/Solution/firstBadVersion/#kotlin.Int#kotlin.Int/PointingToDeclaration/kotlin-practice/leetcode.sorting/-solution/first-bad-version.html
+$dokka.location:leetcode.sorting/VersionControl///PointingToDeclaration/kotlin-practice/leetcode.sorting/-version-control/index.html
+$dokka.location:leetcode.sorting/VersionControl/VersionControl/#/PointingToDeclaration/kotlin-practice/leetcode.sorting/-version-control/-version-control.html
+$dokka.location:leetcode.sorting/VersionControl/isBadVersion/#kotlin.Int#kotlin.Int/PointingToDeclaration/kotlin-practice/leetcode.sorting/-version-control/is-bad-version.html
+$dokka.location:leetcode.strings////PointingToDeclaration/kotlin-practice/leetcode.strings/index.html
+$dokka.location:leetcode.strings//firstUniqChar/#kotlin.String/PointingToDeclaration/kotlin-practice/leetcode.strings/first-uniq-char.html
+$dokka.location:leetcode.strings//main/#/PointingToDeclaration/kotlin-practice/leetcode.strings/main.html
+$dokka.location:leetcode.strings//myAtoi/#kotlin.String/PointingToDeclaration/kotlin-practice/leetcode.strings/my-atoi.html
+$dokka.location:leetcode.strings//myAtoiSimple/#kotlin.String/PointingToDeclaration/kotlin-practice/leetcode.strings/my-atoi-simple.html
+$dokka.location:leetcode.strings//reverseString/#kotlin.String/PointingToDeclaration/kotlin-practice/leetcode.strings/reverse-string.html
+$dokka.location:leetcode.strings/State.q0///PointingToDeclaration/kotlin-practice/leetcode.strings/-state/q0/index.html
+$dokka.location:leetcode.strings/State.q1///PointingToDeclaration/kotlin-practice/leetcode.strings/-state/q1/index.html
+$dokka.location:leetcode.strings/State.q2///PointingToDeclaration/kotlin-practice/leetcode.strings/-state/q2/index.html
+$dokka.location:leetcode.strings/State.qd///PointingToDeclaration/kotlin-practice/leetcode.strings/-state/qd/index.html
+$dokka.location:leetcode.strings/State///PointingToDeclaration/kotlin-practice/leetcode.strings/-state/index.html
+$dokka.location:leetcode.strings/StateMachine///PointingToDeclaration/kotlin-practice/leetcode.strings/-state-machine/index.html
+$dokka.location:leetcode.strings/StateMachine/StateMachine/#/PointingToDeclaration/kotlin-practice/leetcode.strings/-state-machine/-state-machine.html
+$dokka.location:leetcode.strings/StateMachine/finalResult/#/PointingToDeclaration/kotlin-practice/leetcode.strings/-state-machine/final-result.html
+$dokka.location:leetcode.strings/StateMachine/getState/#/PointingToDeclaration/kotlin-practice/leetcode.strings/-state-machine/get-state.html
+$dokka.location:leetcode.strings/StateMachine/transition/#kotlin.Char/PointingToDeclaration/kotlin-practice/leetcode.strings/-state-machine/transition.html
+$dokka.location:leetcode.trees////PointingToDeclaration/kotlin-practice/leetcode.trees/index.html
+$dokka.location:leetcode.trees//isSymmetric/#leetcode.trees.TreeNode?/PointingToDeclaration/kotlin-practice/leetcode.trees/is-symmetric.html
+$dokka.location:leetcode.trees//isValidBST/#leetcode.trees.Node?/PointingToDeclaration/kotlin-practice/leetcode.trees/is-valid-b-s-t.html
+$dokka.location:leetcode.trees//levelOrder/#leetcode.trees.TreeNode?/PointingToDeclaration/kotlin-practice/leetcode.trees/level-order.html
+$dokka.location:leetcode.trees//main/#/PointingToDeclaration/kotlin-practice/leetcode.trees/main.html
+$dokka.location:leetcode.trees//maxDepth/#leetcode.trees.TreeNode?/PointingToDeclaration/kotlin-practice/leetcode.trees/max-depth.html
+$dokka.location:leetcode.trees//sortedArrayToBST/#kotlin.IntArray#kotlin.Int#kotlin.Int/PointingToDeclaration/kotlin-practice/leetcode.trees/sorted-array-to-b-s-t.html
+$dokka.location:leetcode.trees/Node///PointingToDeclaration/kotlin-practice/leetcode.trees/-node/index.html
+$dokka.location:leetcode.trees/Node/Node/#kotlin.Int#leetcode.trees.Node?#leetcode.trees.Node?/PointingToDeclaration/kotlin-practice/leetcode.trees/-node/-node.html
+$dokka.location:leetcode.trees/Node/data/#/PointingToDeclaration/kotlin-practice/leetcode.trees/-node/data.html
+$dokka.location:leetcode.trees/Node/left/#/PointingToDeclaration/kotlin-practice/leetcode.trees/-node/left.html
+$dokka.location:leetcode.trees/Node/right/#/PointingToDeclaration/kotlin-practice/leetcode.trees/-node/right.html
+$dokka.location:leetcode.trees/TreeNode///PointingToDeclaration/kotlin-practice/leetcode.trees/-tree-node/index.html
+$dokka.location:leetcode.trees/TreeNode/TreeNode/#kotlin.Int#leetcode.trees.TreeNode?#leetcode.trees.TreeNode?/PointingToDeclaration/kotlin-practice/leetcode.trees/-tree-node/-tree-node.html
+$dokka.location:leetcode.trees/TreeNode/left/#/PointingToDeclaration/kotlin-practice/leetcode.trees/-tree-node/left.html
+$dokka.location:leetcode.trees/TreeNode/right/#/PointingToDeclaration/kotlin-practice/leetcode.trees/-tree-node/right.html
+$dokka.location:leetcode.trees/TreeNode/val/#/PointingToDeclaration/kotlin-practice/leetcode.trees/-tree-node/val.html
+$dokka.location:p////PointingToDeclaration/kotlin-practice/p/index.html
+$dokka.location:p//main/#/PointingToDeclaration/kotlin-practice/p/main.html
+$dokka.location:p//runLength/#kotlin.String/PointingToDeclaration/kotlin-practice/p/run-length.html
+$dokka.location:p/CustomList///PointingToDeclaration/kotlin-practice/p/-custom-list/index.html
+$dokka.location:p/CustomList/CustomList/#kotlin.Array[TypeParam(bounds=[kotlin.Any?])]/PointingToDeclaration/kotlin-practice/p/-custom-list/-custom-list.html
+$dokka.location:p/CustomList/iterator/#/PointingToDeclaration/kotlin-practice/p/-custom-list/iterator.html
+$dokka.location:p/PrintSequenceCallable///PointingToDeclaration/kotlin-practice/p/-print-sequence-callable/index.html
+$dokka.location:p/PrintSequenceCallable/PrintSequenceCallable/#p.SequenceGenerator/PointingToDeclaration/kotlin-practice/p/-print-sequence-callable/-print-sequence-callable.html
+$dokka.location:p/PrintSequenceCallable/call/#/PointingToDeclaration/kotlin-practice/p/-print-sequence-callable/call.html
+$dokka.location:p/SafeSequenceGenerator///PointingToDeclaration/kotlin-practice/p/-safe-sequence-generator/index.html
+$dokka.location:p/SafeSequenceGenerator/SafeSequenceGenerator/#/PointingToDeclaration/kotlin-practice/p/-safe-sequence-generator/-safe-sequence-generator.html
+$dokka.location:p/SafeSequenceGenerator/getNext/#/PointingToDeclaration/kotlin-practice/p/-safe-sequence-generator/get-next.html
+$dokka.location:p/SequenceGenerator///PointingToDeclaration/kotlin-practice/p/-sequence-generator/index.html
+$dokka.location:p/SequenceGenerator/getNext/#/PointingToDeclaration/kotlin-practice/p/-sequence-generator/get-next.html
+cake
+hackerrank
+hackerrank.maps
+hackerrank.sorting
+leetcode.arrays
+leetcode.design
+leetcode.dynamic
+leetcode.linkedlists
+leetcode.math
+leetcode.others
+leetcode.sorting
+leetcode.strings
+leetcode.trees
+p
+
